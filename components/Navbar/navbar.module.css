@@ -1,0 +1,181 @@
+
+.header{
+  transition: all 1s;
+  position: absolute;
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  color: #000;
+  background-color: lightgrey;
+}
+
+.scrolled{
+  transition: all 2s;
+  position: fixed;
+  top:0;
+  background-color: RGBA(0,0,0,0.40);
+  z-index: 2;
+  color:#fff;
+  backdrop-filter: blur(5px);
+}
+
+.header a{
+  cursor: pointer;
+}
+
+.header .logo{
+  cursor: pointer;
+  margin-left: 30px;
+  padding: 3px;
+  transition: all 0.3s ease 0s;
+}
+
+.header .logo:hover{
+  transform: scale(1.2);
+  background-color: #000;
+  color: #fff
+}
+
+.header nav{
+  width: fit-content;
+  margin-right: 30px;
+}
+
+.header .navLinks{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+
+.header .navLinks li{
+  display: inline-block;
+  transition: all 0.3s ease 0s;
+  margin: 0;
+  margin: 0 10px;
+}
+
+.header .navLinks li:hover{
+  transform: scale(1.1);
+}
+
+.header .navLinks a{
+  padding: 3px;
+}
+
+.header .navLinks a:hover,
+.overlay a:hover{
+  color: #fff;
+  background-color: #000000;
+}
+
+
+.header .order .menu .menuButton{
+  margin-left: 20px;
+  color: #1b3039;
+  padding: 4px 15px 1px;
+  background: #eceff1;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  display: flex;
+  align-items: center;
+}
+.header .btn button:hover,
+.header .order .menu .menuButton:hover{
+    background-color: #000;
+    color: #fff;
+    transform: scale(1.1);
+}
+
+.header .order{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.header .order .menu .menuButton{
+  display:none
+}
+@media screen and (max-width:992px) {
+
+}
+
+@media screen and (max-width:700px) {
+  .navLinks, .btn{
+    display: none
+  }
+  .header .navLinks{
+    display: none;
+  }
+  
+  .header .order .menu .menuButton {
+    display: inherit;
+  }
+}
+.header a {
+  text-decoration: none;
+}
+
+.header .overlay{
+  height: 100vh;
+  width: 0;
+  position: fixed;
+  z-index: 3;
+  right: 0;
+  top: 0;
+  background-color: #000;
+  overflow: hidden;
+  transition: all 0.3s ease 0s
+}
+
+.header .overlayContent {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header .overlay a{
+  padding: 15px;
+  font-size: 36px;
+  display: block;
+  transition: all 0.3s ease 0s;
+  font-weight: 600;
+  color: #eceff1;
+}
+
+.header .overlay a:hover,
+.header .overlay a:focus{
+  color: #000;
+  background-color: #fff;
+}
+
+.header .overlay .close{
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 40px;
+}
+
+@media screen and (max-height:450px) {
+  .header .overlay a{
+    font-size: 5px;
+  }
+  .header .overlay .close{
+    font-size: 5px;
+    top: 15px;
+    right: 35px
+  }
+}
+
+#mobileMenu{
+  width: 100%;
+}
