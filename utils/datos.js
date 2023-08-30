@@ -140,6 +140,15 @@ export const streaming = [
     video: "https://www.youtube.com/embed/BYN-4PAkC3w?si=4SjOSrAqXjaF2yxN",
   },
 ];
+
+export const producciones = [
+  {
+    titulo: "El Secreto de la Familia Greco",
+    productora: "Telemundo",
+    servicio: "Producción de Casting",
+    video: "https://www.youtube.com/embed/2BDiJgjtOgg?si=_KYRD09kjCvsE5C1",
+  },
+];
 // {
 //   titulo:'',
 //   foto:'',

@@ -1,6 +1,7 @@
 import styles from "./page.module.css";
 import Entrevistas from "@/views/Entrevistas";
 import Notas from "@/views/Notas";
+import Producion from "@/views/Produccion";
 
 import Streaming from "@/views/Streaming";
 
@@ -14,9 +15,7 @@ export default function Home() {
       <hr />
       <Notas />
       <hr />
-      <section id="produccion" className={styles.produccion}>
-        SECCION PRODUCCION
-      </section>
+      <Producion />
       <Streaming />
       <section id="acerca" className={styles.acerca}>
         SECCION ACERCA DE MI

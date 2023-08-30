@@ -1,0 +1,34 @@
+
+.container {
+    width: 100%;
+    max-width: 100vw;
+    min-height: 100vh;
+    box-sizing: border-box; /* Set box-sizing to border-box */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+  }
+  
+  .border {
+    width: 100%;
+    max-width: calc(100% - 33vw); 
+    min-height: fit-content; 
+    box-sizing: border-box;
+    margin-top: 90px;
+    margin-bottom: 30px;
+    display: grid;
+    gap: 1.5rem;
+    grid-auto-rows: fit-content;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%,22rem), 1fr));
+    grid-auto-flow: dense;
+  }
+
+  .mas{
+    margin-bottom: 30px;
+    padding: 3px 8px;
+    border: 1px solid #000;
+    border-radius: 40px;
+    cursor: pointer;
+  }

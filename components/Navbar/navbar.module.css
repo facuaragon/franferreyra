@@ -7,9 +7,12 @@
   justify-content: space-between;
   align-items: center;
   height: 70px;
-  color: #000;
   background-color: transparent;
   transition: background-color 1s ease-in-out;
+}
+
+.header.scrolled{
+  color:#fff
 }
 
 .scrolled{
@@ -40,6 +43,10 @@
 .header .logo:hover{
   transform: scale(1.2);
   background-color: #000;
+  color: #fff
+}
+
+.header .logo:hover a{
   color: #fff
 }
 
