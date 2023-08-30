@@ -94,13 +94,13 @@ export default function Navbar() {
             <li>
               <ScrollLink
                 activeClass="active"
-                to="streamming"
+                to="streaming"
                 spy={true}
                 offset={navbarHeight}
                 smooth={true}
                 duration={800}
               >
-                Streamming
+                Streaming
               </ScrollLink>
             </li>
             <li>
@@ -167,14 +167,14 @@ export default function Navbar() {
             </ScrollLink>
             <ScrollLink
               activeClass="active"
-              to="streamming"
+              to="streaming"
               spy={true}
               smooth={true}
               offset={navbarHeight}
               duration={800}
               onClick={toggleNav}
             >
-              Streamming
+              Streaming
             </ScrollLink>
             <ScrollLink
               activeClass="active"

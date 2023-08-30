@@ -1,6 +1,5 @@
 
 .header{
-  transition: all 1s;
   position: absolute;
   width: 100%;
   max-width: 100%;
@@ -9,11 +8,16 @@
   align-items: center;
   height: 70px;
   color: #000;
-  background-color: lightgrey;
+  background-color: transparent;
+  transition: background-color 1s ease-in-out;
 }
 
 .scrolled{
-  transition: all 2s;
+  transition: background-color 1s ease-in-out;
+  /* transition: color 1s ease-in-out;
+  transition: backdrop-filter 3s ease-in-out; */
+
+
   position: fixed;
   top:0;
   background-color: RGBA(0,0,0,0.40);
