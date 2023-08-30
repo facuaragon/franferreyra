@@ -1,7 +1,14 @@
+.link {
+    
+}
+
 .container{
     width: 100%;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     overflow: hidden;
+    max-width: 600px;
+
+
 }
 
 
@@ -13,7 +20,7 @@
 }
 
 .cuerpo{
-    margin: 10px;
+    margin: 10px 0;
 }
 
 .medio{

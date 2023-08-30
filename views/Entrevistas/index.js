@@ -6,7 +6,7 @@ export default function Entrevistas() {
   return (
     <main id="entrevistas" className={styles.container}>
       <div className={styles.border}>
-        {entrevistas?.slice(0, 4).map((entrevista, i) => (
+        {entrevistas?.slice(0, 6).map((entrevista, i) => (
           <CardEntrevista entrevista={entrevista} key={i} />
         ))}
       </div>

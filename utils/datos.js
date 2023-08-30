@@ -48,6 +48,104 @@ export const entrevistas = [
     link: "https://marieclaire.perfil.com/noticias/personajes/anitta-cantante-envolver.phtml",
     prioridad: 5,
   },
+  {
+    titulo:
+      "Conocé a Valentina Ferrer: la modelo y empresaria argentina pareja de J.Balvin",
+    foto: "https://fotos.perfil.com/2023/05/05/valentina-ferrer-1561622.jpg",
+    bajada:
+      "Auténtica, inquieta y emprendedora, la cordobesa logró forjar su propio camino en el mundo de la moda. Además, se animó a ser CEO de una firma saludable y apuesta a la ayuda social.",
+    medio: "marie claire",
+    link: "https://marieclaire.perfil.com/noticias/moda/valentina-ferrer-modelo-miss-argentina.phtml",
+    prioridad: 6,
+  },
+  {
+    titulo:
+      "Lali: “No hay que comprar la idea que nos vendieron del amor y la felicidad” ",
+    foto: "https://fotos.perfil.com/2022/11/03/trim/1280/720/lali-esposito-no-hay-que-comprar-la-idea-que-nos-vendieron-de-amor-y-felicidad-1447783.jpg",
+    bajada:
+      "La estrella pop no para de encarar proyectos, y ahora protagoniza ‘El Fin del Amor’, la serie basada en el libro de Tamara Tenenbaum que se estrena el 4 de noviembre en Amazon Prime Video. ",
+    medio: "marie claire",
+    link: "https://marieclaire.perfil.com/noticias/personajes/lali-esposito-el-fin-del-amor-tamara-tenenbaum.phtml",
+    prioridad: 7,
+  },
+  {
+    titulo:
+      'The Crown: conocé a Lesley Manville, la "última" princesa Margarita',
+    foto: "https://fotos.perfil.com/2022/11/09/trim/1280/720/the-crown-conoce-a-lesley-manville-la-nueva-princesa-margarita-1450682.jpg",
+    bajada:
+      "La actriz británica, cuenta con una larga trayectoria interpretando personajes sombríos y ahora se prepara para convertirse en un nombre familiar y querido en el Reino Unido.",
+    medio: "marie claire",
+    link: "https://marieclaire.perfil.com/noticias/personajes/the-crown-conoce-a-lesley-manville-la-nueva-princesa-margarita.phtml",
+    prioridad: 8,
+  },
+  {
+    titulo:
+      "Camila Cabello: “Qué aburrido sería el mundo si todos nos viéramos iguales”",
+    foto: "https://fotos.perfil.com/2022/10/24/trim/1280/720/camila-cabello-que-aburrido-seria-el-mundo-si-todos-nos-vieramos-iguales-1441736.jpg",
+    bajada:
+      "La cantante de 25 años es una referente del ‘body positive’, tiene raíces latinas e inspira a los jóvenes a través de su música. Ahora, se encuentra del otro lado del certamen de talentos como nueva coach en The Voice.",
+    medio: "marie claire",
+    link: "https://marieclaire.perfil.com/noticias/personajes/camila-cabello-the-voice-representacion-latina-body-positive.phtml",
+    prioridad: 9,
+  },
+  {
+    titulo: 'Anitta: "Cambiar me hace sentir poderosa"',
+    foto: "https://fotos.perfil.com/2022/10/05/trim/1280/720/anitta-1431583.jpg",
+    bajada:
+      "Es la cantante brasileña del momento. De cómo pasó a ser la “reina de la favela” a la empleadora del pop de su país y el mundo.",
+    medio: "marie claire",
+    link: "https://marieclaire.perfil.com/noticias/personajes/anitta-cantante-envolver.phtml",
+    prioridad: 10,
+  },
+  {
+    titulo:
+      "Conocé a Valentina Ferrer: la modelo y empresaria argentina pareja de J.Balvin",
+    foto: "https://fotos.perfil.com/2023/05/05/valentina-ferrer-1561622.jpg",
+    bajada:
+      "Auténtica, inquieta y emprendedora, la cordobesa logró forjar su propio camino en el mundo de la moda. Además, se animó a ser CEO de una firma saludable y apuesta a la ayuda social.",
+    medio: "marie claire",
+    link: "https://marieclaire.perfil.com/noticias/moda/valentina-ferrer-modelo-miss-argentina.phtml",
+    prioridad: 11,
+  },
+  {
+    titulo:
+      "Lali: “No hay que comprar la idea que nos vendieron del amor y la felicidad” ",
+    foto: "https://fotos.perfil.com/2022/11/03/trim/1280/720/lali-esposito-no-hay-que-comprar-la-idea-que-nos-vendieron-de-amor-y-felicidad-1447783.jpg",
+    bajada:
+      "La estrella pop no para de encarar proyectos, y ahora protagoniza ‘El Fin del Amor’, la serie basada en el libro de Tamara Tenenbaum que se estrena el 4 de noviembre en Amazon Prime Video. ",
+    medio: "marie claire",
+    link: "https://marieclaire.perfil.com/noticias/personajes/lali-esposito-el-fin-del-amor-tamara-tenenbaum.phtml",
+    prioridad: 12,
+  },
+  {
+    titulo:
+      'The Crown: conocé a Lesley Manville, la "última" princesa Margarita',
+    foto: "https://fotos.perfil.com/2022/11/09/trim/1280/720/the-crown-conoce-a-lesley-manville-la-nueva-princesa-margarita-1450682.jpg",
+    bajada:
+      "La actriz británica, cuenta con una larga trayectoria interpretando personajes sombríos y ahora se prepara para convertirse en un nombre familiar y querido en el Reino Unido.",
+    medio: "marie claire",
+    link: "https://marieclaire.perfil.com/noticias/personajes/the-crown-conoce-a-lesley-manville-la-nueva-princesa-margarita.phtml",
+    prioridad: 13,
+  },
+  {
+    titulo:
+      "Camila Cabello: “Qué aburrido sería el mundo si todos nos viéramos iguales”",
+    foto: "https://fotos.perfil.com/2022/10/24/trim/1280/720/camila-cabello-que-aburrido-seria-el-mundo-si-todos-nos-vieramos-iguales-1441736.jpg",
+    bajada:
+      "La cantante de 25 años es una referente del ‘body positive’, tiene raíces latinas e inspira a los jóvenes a través de su música. Ahora, se encuentra del otro lado del certamen de talentos como nueva coach en The Voice.",
+    medio: "marie claire",
+    link: "https://marieclaire.perfil.com/noticias/personajes/camila-cabello-the-voice-representacion-latina-body-positive.phtml",
+    prioridad: 14,
+  },
+  {
+    titulo: 'Anitta: "Cambiar me hace sentir poderosa"',
+    foto: "https://fotos.perfil.com/2022/10/05/trim/1280/720/anitta-1431583.jpg",
+    bajada:
+      "Es la cantante brasileña del momento. De cómo pasó a ser la “reina de la favela” a la empleadora del pop de su país y el mundo.",
+    medio: "marie claire",
+    link: "https://marieclaire.perfil.com/noticias/personajes/anitta-cantante-envolver.phtml",
+    prioridad: 15,
+  },
 ];
 
 export const notas = [
