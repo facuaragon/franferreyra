@@ -1,0 +1,37 @@
+.container{
+    width: 100%;
+    border: 1px solid #000;
+    overflow: hidden;
+}
+
+
+.foto{
+    width: 100%;
+    aspect-ratio: 2 /1 ;
+    background-size: cover; 
+    background-position: center;
+}
+
+.cuerpo{
+    margin: 10px;
+}
+
+.medio{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #373737;
+    width: fit-content;
+    padding: 5px;
+}
+
+.titulo{
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.bajada{
+    padding-bottom: 15px;
+}
