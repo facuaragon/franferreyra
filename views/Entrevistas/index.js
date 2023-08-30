@@ -1,6 +1,7 @@
 import CardEntrevista from "@/components/CardEntrevista";
 import styles from "./entrevistas.module.css";
 import { entrevistas } from "@/utils/datos";
+import Link from "next/link";
 export default function Entrevistas() {
   return (
     <main id="entrevistas" className={styles.container}>
@@ -10,7 +11,9 @@ export default function Entrevistas() {
         ))}
       </div>
       {entrevistas?.length > 4 && (
-        <div className={styles.mas}>+ Ver Mas Entrevistas</div>
+        <div className={styles.mas}>
+          <Link href="/entrevistas">+ Ver Mas Entrevistas</Link>
+        </div>
       )}
     </main>
   );

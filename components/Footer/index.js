@@ -7,9 +7,11 @@ import Youtube from "../icons/Youtube";
 import Tiktok from "../icons/Tiktok";
 import styles from "./footer.module.css";
 import { useState, useEffect } from "react";
+import { usePathname } from "next/navigation";
 
 export default function Footer() {
-  const [scrolled, setScrolled] = useState(false);
+  const pathname = usePathname();
+  const [scrolled, setScrolled] = useState();
   const [iconSize, setIconSize] = useState(25);
 
   const changeBg = () => {
@@ -23,14 +25,17 @@ export default function Footer() {
   };
 
   useEffect(() => {
-    // Add event listener on mount
-    window.addEventListener("scroll", changeBg);
-
-    // Clean up the event listener on unmount
+    if (pathname == "/") {
+      window.addEventListener("scroll", changeBg);
+      setScrolled(false);
+    } else {
+      setScrolled(true);
+      setIconSize(20);
+    }
     return () => {
       window.removeEventListener("scroll", changeBg);
     };
-  }, []);
+  }, [pathname]);
 
   return (
     <>
