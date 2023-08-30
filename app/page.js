@@ -16,6 +16,7 @@ export default function Home() {
       <Notas />
       <hr />
       <Producion />
+      <hr />
       <Streaming />
       <section id="acerca" className={styles.acerca}>
         SECCION ACERCA DE MI
