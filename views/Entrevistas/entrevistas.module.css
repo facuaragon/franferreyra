@@ -19,9 +19,12 @@
     margin: 90px auto 30px;
     display: grid;
     gap: 1.5rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* display: grid;
+    gap: 1.5rem;
     grid-auto-rows: fit-content;
     grid-template-columns: repeat(auto-fit, minmax(min(100%,18rem), 1fr));
-    grid-auto-flow: dense;
+    grid-auto-flow: dense; */
   }
 
   .mas{
@@ -30,4 +33,20 @@
     border: 1px solid #000;
     border-radius: 40px;
     cursor: pointer;
+  }
+
+  @media screen and (max-width:1100px) {
+    .border {
+      max-width: calc(100% - 25vw); 
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  @media screen and (max-width:680px) {
+    .border {
+      grid-template-columns: 1fr;
+      max-width: calc(100% - 20vw); 
+      margin: 90px 70px 30px auto;
+
+    }
   }

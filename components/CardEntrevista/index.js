@@ -35,7 +35,7 @@ export default function CardEntrevista({ entrevista }) {
 
   return (
     <>
-      <a href={entrevista.link} target="_blank">
+      <a href={entrevista.link} target="_blank" className={styles.link}>
         <div className={styles.container}>
           <div className={styles.foto} style={imagenStyle}></div>
           <div className={styles.cuerpo}>
