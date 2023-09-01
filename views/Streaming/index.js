@@ -2,6 +2,7 @@ import CardEntrevista from "@/components/CardEntrevista";
 import styles from "./streaming.module.css";
 import { streaming } from "@/utils/datos";
 import CardStreaming from "@/components/CardStreaming";
+import Link from "next/link";
 export default function Streaming() {
   const mostradas = 6;
 
@@ -13,7 +14,9 @@ export default function Streaming() {
         ))}
       </div>
       {streaming?.length > mostradas && (
-        <div className={styles.mas}>+ Ver Mas Streamings</div>
+        <div className={styles.mas}>
+          <Link href="/streamings">+ Ver Mas Streamings</Link>
+        </div>
       )}
     </main>
   );

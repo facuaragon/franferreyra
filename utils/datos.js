@@ -342,6 +342,55 @@ export const streaming = [
     video: "https://www.youtube.com/embed/BYN-4PAkC3w?si=4SjOSrAqXjaF2yxN",
     prioridad: 7,
   },
+  {
+    titulo: "Lucas Spadafora en Tirar Fruta - con Facu Sosa y Fran Ferreyra",
+    canal: "tirar fruta",
+    video: "https://www.youtube.com/embed/Yon4ffs2Xrc?si=vR3No_PurVaf1WC_",
+    prioridad: 8,
+  },
+  {
+    titulo: "La Payuca en Tirar Fruta - con Facu Sosa y Fran Ferreyra",
+    canal: "tirar fruta",
+    video: "https://www.youtube.com/embed/QKVwJlRxUZ0?si=tqKkKl3k4dTR3oKs",
+    prioridad: 9,
+  },
+  {
+    titulo:
+      "Pablo El Turtu Turturiello en Tirar Fruta - con Facu Sosa y Fran Ferreyra",
+    canal: "tirar fruta",
+    video: "https://www.youtube.com/embed/P7M2P0HF-yg?si=BqKb7ketUB7QxHyg",
+    prioridad: 10,
+  },
+  {
+    titulo: "Santi Balosky en Tirar Fruta - con Facu Sosa y Fran Ferreyra",
+    canal: "tirar fruta",
+    video: "https://www.youtube.com/embed/wmHYxU4tgBg?si=DVZQ5MJ7Nt3Dceir",
+    prioridad: 11,
+  },
+  {
+    titulo: "La Queen en Tirar Fruta - con Facu Sosa y Fran Ferreyra",
+    canal: "tirar fruta",
+    video: "https://www.youtube.com/embed/jvG0xonwJFs?si=V6OlDKfLHwrwryX3",
+    prioridad: 12,
+  },
+  {
+    titulo: "Fausto Lozano en Tirar Fruta - con Facu Sosa y Fran Ferreyra",
+    canal: "tirar fruta",
+    video: "https://www.youtube.com/embed/V9rPbyHiU3Y?si=YsQaVfsYDs6Mk2L8",
+    prioridad: 13,
+  },
+  {
+    titulo: "Pelain en Tirar Fruta - con Facu Sosa y Fran Ferreyra",
+    canal: "tirar fruta",
+    video: "https://www.youtube.com/embed/BYN-4PAkC3w?si=4SjOSrAqXjaF2yxN",
+    prioridad: 14,
+  },
+  {
+    titulo: "Lucas Spadafora en Tirar Fruta - con Facu Sosa y Fran Ferreyra",
+    canal: "tirar fruta",
+    video: "https://www.youtube.com/embed/Yon4ffs2Xrc?si=vR3No_PurVaf1WC_",
+    prioridad: 15,
+  },
 ];
 
 export const producciones = [
