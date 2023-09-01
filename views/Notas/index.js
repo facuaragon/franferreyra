@@ -1,8 +1,8 @@
 import CardEntrevista from "@/components/CardEntrevista";
 import styles from "./notas.module.css";
-import { notas } from "@/utils/datos";
+// import { notas } from "@/utils/datos";
 import Link from "next/link";
-export default function Notas() {
+export default function Notas({ notas }) {
   const mostradas = 6;
 
   return (

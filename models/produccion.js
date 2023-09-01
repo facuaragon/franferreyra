@@ -18,6 +18,6 @@ const produccionSchema = new Schema(
 );
 
 const Produccion =
-  mongoose.models.Produccion || mongoose.model("Produccion", produccionSchema);
+  mongoose.models?.Produccion || mongoose.model("Produccion", produccionSchema);
 
 export default Produccion;

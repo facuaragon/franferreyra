@@ -17,6 +17,6 @@ const streamingSchema = new Schema(
 );
 
 const Streaming =
-  mongoose.models.Streaming || mongoose.model("Streaming", streamingSchema);
+  mongoose.models?.Streaming || mongoose.model("Streaming", streamingSchema);
 
 export default Streaming;

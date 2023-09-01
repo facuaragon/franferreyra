@@ -19,6 +19,6 @@ const entrevistaSchema = new Schema(
 );
 
 const Entrevista =
-  mongoose.models.Entrevista || mongoose.model("Entrevista", entrevistaSchema);
+  mongoose.models?.Entrevista || mongoose.model("Entrevista", entrevistaSchema);
 
 export default Entrevista;

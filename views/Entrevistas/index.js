@@ -1,8 +1,8 @@
 import CardEntrevista from "@/components/CardEntrevista";
 import styles from "./entrevistas.module.css";
-import { entrevistas } from "@/utils/datos";
+// import { entrevistas } from "@/utils/datos";
 import Link from "next/link";
-export default function Entrevistas() {
+export default function Entrevistas({ entrevistas }) {
   const mostradas = 6;
   return (
     <main id="entrevistas" className={styles.container}>

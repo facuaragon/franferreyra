@@ -2,6 +2,7 @@ import Navbar from "@/components/Navbar";
 import "./globals.css";
 import { Inter } from "next/font/google";
 import Footer from "@/components/Footer";
+import { Provider } from "@/Context/Context";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -15,9 +16,11 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <link rel="icon" href="/FF-favicon.ico" />
       <body className={inter.className}>
-        <Navbar />
-        <Footer />
-        {children}
+        <Provider>
+          <Navbar />
+          <Footer />
+          {children}
+        </Provider>
       </body>
     </html>
   );

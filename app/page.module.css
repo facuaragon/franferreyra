@@ -1,3 +1,11 @@
+.loaderContent{
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .welcome, .entrevistas, .notas, .produccion, .streamming, .acerca{
     min-height: 100vh;
     height: 100%;

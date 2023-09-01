@@ -28,7 +28,7 @@ export default function Navbar() {
     } else {
       setScrolled(true);
     }
-    console.log("pathname: ", pathname);
+    // console.log("pathname: ", pathname);
     return () => {
       window.removeEventListener("scroll", changeBg);
     };
