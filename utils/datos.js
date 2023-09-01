@@ -350,6 +350,7 @@ export const producciones = [
     productora: "Telemundo",
     servicio: "Producción de Casting",
     video: "https://www.youtube.com/embed/2BDiJgjtOgg?si=_KYRD09kjCvsE5C1",
+    prioridad: 1,
   },
 ];
 // {
