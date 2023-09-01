@@ -46,7 +46,7 @@
     .border {
       grid-template-columns: 1fr;
       max-width: calc(100% - 20vw); 
-      margin: 90px 70px 30px auto;
+      margin: 90px 55px 30px auto;
 
     }
   }
