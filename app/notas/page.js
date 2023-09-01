@@ -2,14 +2,14 @@
 import styles from "./page.module.css";
 import CardEntrevista from "@/components/CardEntrevista";
 import Paginacion from "@/components/Paginacion";
-import { entrevistas } from "@/utils/datos";
+import { notas } from "@/utils/datos";
 import { useState } from "react";
 export default function Entrevistas() {
   const [currentPage, setCurrentPage] = useState(1);
   const [cardsPerPage] = useState(10);
   const indexOfLastCard = currentPage * cardsPerPage;
   const indexOfFirstCard = indexOfLastCard - cardsPerPage;
-  const currentCards = entrevistas.slice(indexOfFirstCard, indexOfLastCard);
+  const currentCards = notas.slice(indexOfFirstCard, indexOfLastCard);
   const paginate = (pageNumber) => {
     setCurrentPage(pageNumber);
     window.scrollTo({
@@ -20,7 +20,7 @@ export default function Entrevistas() {
   };
   return (
     <>
-      <main id="entrevistas" className={styles.container}>
+      <main id="notas" className={styles.container}>
         <div className={styles.border}>
           <div className={styles.border}>
             {currentCards.map((entrevista, i) => (
@@ -30,7 +30,7 @@ export default function Entrevistas() {
         </div>
         <Paginacion
           cardsPerPage={cardsPerPage}
-          totalCards={entrevistas.length}
+          totalCards={notas.length}
           paginate={paginate}
           currentPage={currentPage}
         />

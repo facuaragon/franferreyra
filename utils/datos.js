@@ -177,7 +177,7 @@ export const notas = [
       "La actriz de Veneno habló con CARAS y se refirió a las fotos con la argentina en los Premios Platino.",
     medio: "caras",
     link: "https://fotos.perfil.com/2022/05/03/trim/950/534/jedet-revelo-como-fue-el-encuentro-a-los-besos-con-lali-esposito-en-madrid-1350799.jpg?webp",
-    prioridad: "3",
+    prioridad: 3,
   },
   {
     titulo:
@@ -187,7 +187,7 @@ export const notas = [
       "Después de participar en las películas “Simón” y “Segura”, el actor latino encarnó al mítico Víctor Hugo Rojas, en la serie de Netflix. El personaje, que fue pareja de Roy Halston Frowick, mantuvo también una intensa relación con Andy Warhol.",
     medio: "marie claire",
     link: "https://marieclaire.perfil.com/noticias/personajes/gian-franco-rodriguez-la-representacion-latina-en-hollywood-es-bastante-estereotipada.phtml?_ga=2.151666225.925256611.1693339822-519234603.1693339822&_gl=1*1ueob1z*_ga*NTE5MjM0NjAzLjE2OTMzMzk4MjI.*_ga_ZVLDWW22SP*MTY5MzQwNzM0Mi42LjEuMTY5MzQwODI5Ni4wLjAuMA..",
-    prioridad: "4",
+    prioridad: 4,
   },
   {
     titulo: "Fanáticos de la realeza: 3 series que no podés dejar de ver ",
@@ -196,7 +196,105 @@ export const notas = [
       "Tras el éxito de The Crown, las producciones basadas en los escándalos de las monarquías y hechos históricos, están viviendo su mejor momento. ",
     medio: "caras",
     link: "https://caras.perfil.com/noticias/entretenimiento/realeza-series-the-crown-emperatriz-zares.phtml",
-    prioridad: "5",
+    prioridad: 5,
+  },
+  {
+    titulo:
+      "Harry Styles hizo vibrar el Estadio River Plate en su primera noche en Buenos Aires",
+    foto: "https://fotos.perfil.com/2022/12/04/trim/950/534/harry-styles-hizo-vibrar-el-estadioriver-plate-en-su-primera-noche-en-buenos-aires-1466361.jpg?webp",
+    bajada:
+      "El cantante británico se mostró fervientemente activo y feliz en su primer show. Además, celebró el triunfo futbolístico de nuestro país.",
+    medio: "caras",
+    link: "https://caras.perfil.com/noticias/musica/harry-styles-hizo-vibrar-el-estadioriver-plate-en-su-primera-noche-en-buenos-aires.phtml",
+    prioridad: 6,
+  },
+  {
+    titulo:
+      "Britannia: el Yate Real que significó una expresión flotante y marítima para la Reina Isabel II ",
+    foto: "https://fotos.perfil.com/2022/11/16/trim/1280/720/britannia-el-yate-real-que-significo-una-expresion-flotante-y-maritima-para-la-reina-isabel-ii-1454695.jpg",
+    bajada:
+      "La quinta temporada de The Crown revela por qué la fallecida monarca consideró a su barco como el verdadero “capricho” de su reinado. ",
+    medio: "marie claire",
+    link: "https://marieclaire.perfil.com/noticias/cultura/yate-real-britannia-reina-isabel-ii-the-crown.phtml?_gl=1*99wrf5*_ga*NTE5MjM0NjAzLjE2OTMzMzk4MjI.*_ga_ZVLDWW22SP*MTY5MzQwNzM0Mi42LjEuMTY5MzQwODI4MC4wLjAuMA..&_ga=2.151666225.925256611.1693339822-519234603.1693339822",
+    prioridad: 7,
+  },
+  {
+    titulo:
+      "Jedet dio detalles sobre la noche que compartió con Lali Espósito en Madrid",
+    foto: "https://fotos.perfil.com/2022/05/03/trim/950/534/jedet-revelo-como-fue-el-encuentro-a-los-besos-con-lali-esposito-en-madrid-1350799.jpg?webp",
+    bajada:
+      "La actriz de Veneno habló con CARAS y se refirió a las fotos con la argentina en los Premios Platino.",
+    medio: "caras",
+    link: "https://fotos.perfil.com/2022/05/03/trim/950/534/jedet-revelo-como-fue-el-encuentro-a-los-besos-con-lali-esposito-en-madrid-1350799.jpg?webp",
+    prioridad: 8,
+  },
+  {
+    titulo:
+      'Gian Franco Rodríguez: "La representación latina en Hollywood es bastante estereotipada"',
+    foto: "https://fotos.perfil.com/2022/08/26/trim/1280/720/gian-franco-rodriguez-la-representacion-latina-en-hollywood-es-bastante-estereotipada-1408868.jpg",
+    bajada:
+      "Después de participar en las películas “Simón” y “Segura”, el actor latino encarnó al mítico Víctor Hugo Rojas, en la serie de Netflix. El personaje, que fue pareja de Roy Halston Frowick, mantuvo también una intensa relación con Andy Warhol.",
+    medio: "marie claire",
+    link: "https://marieclaire.perfil.com/noticias/personajes/gian-franco-rodriguez-la-representacion-latina-en-hollywood-es-bastante-estereotipada.phtml?_ga=2.151666225.925256611.1693339822-519234603.1693339822&_gl=1*1ueob1z*_ga*NTE5MjM0NjAzLjE2OTMzMzk4MjI.*_ga_ZVLDWW22SP*MTY5MzQwNzM0Mi42LjEuMTY5MzQwODI5Ni4wLjAuMA..",
+    prioridad: 9,
+  },
+  {
+    titulo: "Fanáticos de la realeza: 3 series que no podés dejar de ver ",
+    foto: "https://fotos.perfil.com/2022/11/21/trim/950/534/fanaticos-de-la-realeza-3-series-que-no-podes-dejar-de-ver-1457353.jpg?webp",
+    bajada:
+      "Tras el éxito de The Crown, las producciones basadas en los escándalos de las monarquías y hechos históricos, están viviendo su mejor momento. ",
+    medio: "caras",
+    link: "https://caras.perfil.com/noticias/entretenimiento/realeza-series-the-crown-emperatriz-zares.phtml",
+    prioridad: 10,
+  },
+  {
+    titulo:
+      "Harry Styles hizo vibrar el Estadio River Plate en su primera noche en Buenos Aires",
+    foto: "https://fotos.perfil.com/2022/12/04/trim/950/534/harry-styles-hizo-vibrar-el-estadioriver-plate-en-su-primera-noche-en-buenos-aires-1466361.jpg?webp",
+    bajada:
+      "El cantante británico se mostró fervientemente activo y feliz en su primer show. Además, celebró el triunfo futbolístico de nuestro país.",
+    medio: "caras",
+    link: "https://caras.perfil.com/noticias/musica/harry-styles-hizo-vibrar-el-estadioriver-plate-en-su-primera-noche-en-buenos-aires.phtml",
+    prioridad: 11,
+  },
+  {
+    titulo:
+      "Britannia: el Yate Real que significó una expresión flotante y marítima para la Reina Isabel II ",
+    foto: "https://fotos.perfil.com/2022/11/16/trim/1280/720/britannia-el-yate-real-que-significo-una-expresion-flotante-y-maritima-para-la-reina-isabel-ii-1454695.jpg",
+    bajada:
+      "La quinta temporada de The Crown revela por qué la fallecida monarca consideró a su barco como el verdadero “capricho” de su reinado. ",
+    medio: "marie claire",
+    link: "https://marieclaire.perfil.com/noticias/cultura/yate-real-britannia-reina-isabel-ii-the-crown.phtml?_gl=1*99wrf5*_ga*NTE5MjM0NjAzLjE2OTMzMzk4MjI.*_ga_ZVLDWW22SP*MTY5MzQwNzM0Mi42LjEuMTY5MzQwODI4MC4wLjAuMA..&_ga=2.151666225.925256611.1693339822-519234603.1693339822",
+    prioridad: 12,
+  },
+  {
+    titulo:
+      "Jedet dio detalles sobre la noche que compartió con Lali Espósito en Madrid",
+    foto: "https://fotos.perfil.com/2022/05/03/trim/950/534/jedet-revelo-como-fue-el-encuentro-a-los-besos-con-lali-esposito-en-madrid-1350799.jpg?webp",
+    bajada:
+      "La actriz de Veneno habló con CARAS y se refirió a las fotos con la argentina en los Premios Platino.",
+    medio: "caras",
+    link: "https://fotos.perfil.com/2022/05/03/trim/950/534/jedet-revelo-como-fue-el-encuentro-a-los-besos-con-lali-esposito-en-madrid-1350799.jpg?webp",
+    prioridad: 13,
+  },
+  {
+    titulo:
+      'Gian Franco Rodríguez: "La representación latina en Hollywood es bastante estereotipada"',
+    foto: "https://fotos.perfil.com/2022/08/26/trim/1280/720/gian-franco-rodriguez-la-representacion-latina-en-hollywood-es-bastante-estereotipada-1408868.jpg",
+    bajada:
+      "Después de participar en las películas “Simón” y “Segura”, el actor latino encarnó al mítico Víctor Hugo Rojas, en la serie de Netflix. El personaje, que fue pareja de Roy Halston Frowick, mantuvo también una intensa relación con Andy Warhol.",
+    medio: "marie claire",
+    link: "https://marieclaire.perfil.com/noticias/personajes/gian-franco-rodriguez-la-representacion-latina-en-hollywood-es-bastante-estereotipada.phtml?_ga=2.151666225.925256611.1693339822-519234603.1693339822&_gl=1*1ueob1z*_ga*NTE5MjM0NjAzLjE2OTMzMzk4MjI.*_ga_ZVLDWW22SP*MTY5MzQwNzM0Mi42LjEuMTY5MzQwODI5Ni4wLjAuMA..",
+    prioridad: 14,
+  },
+  {
+    titulo: "Fanáticos de la realeza: 3 series que no podés dejar de ver ",
+    foto: "https://fotos.perfil.com/2022/11/21/trim/950/534/fanaticos-de-la-realeza-3-series-que-no-podes-dejar-de-ver-1457353.jpg?webp",
+    bajada:
+      "Tras el éxito de The Crown, las producciones basadas en los escándalos de las monarquías y hechos históricos, están viviendo su mejor momento. ",
+    medio: "caras",
+    link: "https://caras.perfil.com/noticias/entretenimiento/realeza-series-the-crown-emperatriz-zares.phtml",
+    prioridad: 15,
   },
 ];
 
@@ -205,37 +303,44 @@ export const streaming = [
     titulo: "Lucas Spadafora en Tirar Fruta - con Facu Sosa y Fran Ferreyra",
     canal: "tirar fruta",
     video: "https://www.youtube.com/embed/Yon4ffs2Xrc?si=vR3No_PurVaf1WC_",
+    prioridad: 1,
   },
   {
     titulo: "La Payuca en Tirar Fruta - con Facu Sosa y Fran Ferreyra",
     canal: "tirar fruta",
     video: "https://www.youtube.com/embed/QKVwJlRxUZ0?si=tqKkKl3k4dTR3oKs",
+    prioridad: 2,
   },
   {
     titulo:
       "Pablo El Turtu Turturiello en Tirar Fruta - con Facu Sosa y Fran Ferreyra",
     canal: "tirar fruta",
     video: "https://www.youtube.com/embed/P7M2P0HF-yg?si=BqKb7ketUB7QxHyg",
+    prioridad: 3,
   },
   {
     titulo: "Santi Balosky en Tirar Fruta - con Facu Sosa y Fran Ferreyra",
     canal: "tirar fruta",
     video: "https://www.youtube.com/embed/wmHYxU4tgBg?si=DVZQ5MJ7Nt3Dceir",
+    prioridad: 4,
   },
   {
     titulo: "La Queen en Tirar Fruta - con Facu Sosa y Fran Ferreyra",
     canal: "tirar fruta",
     video: "https://www.youtube.com/embed/jvG0xonwJFs?si=V6OlDKfLHwrwryX3",
+    prioridad: 5,
   },
   {
     titulo: "Fausto Lozano en Tirar Fruta - con Facu Sosa y Fran Ferreyra",
     canal: "tirar fruta",
     video: "https://www.youtube.com/embed/V9rPbyHiU3Y?si=YsQaVfsYDs6Mk2L8",
+    prioridad: 6,
   },
   {
     titulo: "Pelain en Tirar Fruta - con Facu Sosa y Fran Ferreyra",
     canal: "tirar fruta",
     video: "https://www.youtube.com/embed/BYN-4PAkC3w?si=4SjOSrAqXjaF2yxN",
+    prioridad: 7,
   },
 ];
 
