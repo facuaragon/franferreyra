@@ -32,3 +32,10 @@
       transform: translateY(100%);
     }
   }
+
+
+  @media screen and (max-width:680px) {
+    .balls {
+      scale: 1.3;
+    }
+  }
