@@ -6,6 +6,7 @@ export default function Producion() {
 
   return (
     <main id="produccion" className={styles.container}>
+      <div className={styles.title}>Producción</div>
       <div className={styles.border}>
         {producciones.slice(0, mostradas).map((produccion, i) => (
           <CardProduccion produccion={produccion} key={i} />

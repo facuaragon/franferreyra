@@ -7,6 +7,7 @@ export default function Notas() {
 
   return (
     <main id="notas" className={styles.container}>
+      <div className={styles.title}>Notas</div>
       <div className={styles.border}>
         {notas?.slice(0, mostradas).map((nota, i) => (
           <CardEntrevista entrevista={nota} key={i} />

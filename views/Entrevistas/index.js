@@ -6,6 +6,7 @@ export default function Entrevistas() {
   const mostradas = 6;
   return (
     <main id="entrevistas" className={styles.container}>
+      <div className={styles.title}>Entrevistas</div>
       <div className={styles.border}>
         {entrevistas?.slice(0, mostradas).map((entrevista, i) => (
           <CardEntrevista entrevista={entrevista} key={i} />

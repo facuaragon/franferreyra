@@ -8,6 +8,7 @@ export default function Streaming() {
 
   return (
     <main id="streaming" className={styles.container}>
+      <div className={styles.title}>Streaming</div>
       <div className={styles.border}>
         {streaming.slice(0, mostradas).map((stream, i) => (
           <CardStreaming stream={stream} key={i} />
