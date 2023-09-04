@@ -25,7 +25,7 @@
   }
   
   @keyframes wave {
-    from {
+    from { 
       transform: translateY(-100%);
     }
     to {
