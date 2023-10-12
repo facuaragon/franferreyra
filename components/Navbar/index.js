@@ -51,7 +51,7 @@ export default function Navbar() {
           {pathname === "/" ? (
             <ScrollLink
               activeClass="active"
-              to="welcome"
+              to="entrevistas"
               spy={true}
               offset={navbarHeight}
               smooth={true}
@@ -115,7 +115,7 @@ export default function Navbar() {
                     Streaming
                   </ScrollLink>
                 </li>
-                <li>
+                {/* <li>
                   <ScrollLink
                     activeClass="active"
                     to="acerca"
@@ -126,7 +126,7 @@ export default function Navbar() {
                   >
                     Acerca de Mi
                   </ScrollLink>
-                </li>
+                </li> */}
               </ul>
               <div className={styles.order}>
                 <a onClick={toggleNav} className={styles.menu} href="">
@@ -188,7 +188,7 @@ export default function Navbar() {
                 >
                   Streaming
                 </ScrollLink>
-                <ScrollLink
+                {/* <ScrollLink
                   activeClass="active"
                   to="acerca"
                   spy={true}
@@ -198,7 +198,7 @@ export default function Navbar() {
                   onClick={toggleNav}
                 >
                   Acerca de Mi
-                </ScrollLink>
+                </ScrollLink> */}
               </div>
             </div>
           </>

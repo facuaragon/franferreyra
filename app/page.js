@@ -36,9 +36,9 @@ export default function Home() {
   if (loading) {
     return (
       <>
-        <section id="welcome" className={styles.welcome}>
+        {/* <section id="welcome" className={styles.welcome}>
           SECCION BIENVENIDA
-        </section>
+        </section> */}
         <Entrevistas entrevistas={entrevistas} />
         <hr />
         <Notas notas={notas} />
@@ -46,9 +46,9 @@ export default function Home() {
         <Producion producciones={producciones} />
         <hr />
         <Streaming streamings={streamings} />
-        <section id="acerca" className={styles.acerca}>
+        {/* <section id="acerca" className={styles.acerca}>
           SECCION ACERCA DE MI
-        </section>
+        </section> */}
       </>
     );
   } else {
